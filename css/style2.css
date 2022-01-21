@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(233, 226, 213);
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-nike{
+    position: relative;
+    max-width: 80px;
+}
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a {
+    display: inline-block;
+    color: rgb(34, 34, 34);
+    font-weight: 900;
+    margin-left: 40px;
+    text-decoration: none;
+}
+.home{
+    color:#fe363b ;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text{
+    max-width: 600px;
+}
+.content .text h2{
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 800;
+}
+.content .text h2 span{
+    color: #fe363b;
+    font-size: 1.2em ;
+}
+.content .text p{
+    color: #333;
+    font-weight: 900;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 20px;
+    background: #fe363b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.content .img-nike{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .img-nike img{
+    max-width: 600px;
+}
+.tenis-img{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50);
+    display: flex;
+}
+.tenis-img li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.tenis-img li:hover{
+    transform: translateY(-15px);
+
+}
+.imgPng{
+    max-width: 150px;
+}
+.rede-social{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rede-social li{
+    list-style: none;
+}
+.rede-social li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.9);
+    filter: invert(1);
+
+}
+.rede-social li img{
+    max-width: 25px;
+}
+.circulo{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffa7a7;
+    clip-path:circle(600px at right 700px)
+}
